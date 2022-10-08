@@ -2,6 +2,11 @@
 
 # AB = √(xb - xa)2 + (yb - ya)2
 
-Не получилось найти решение
+xa = float(input('Введите координату хa: '))
+xb = float(input('Введите координату хb: '))
+ya = float(input('Введите координату ya: '))
+yb = float(input('Введите координату yb: '))
+distance = (((xb - xa) ** 2) + ((yb - ya) ** 2)) ** 0.5
+print(round(distance))
 
 
