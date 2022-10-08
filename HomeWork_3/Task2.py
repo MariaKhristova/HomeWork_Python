@@ -8,9 +8,9 @@ list2 = []
 n = int(input('Укажите размер списка: '))
 
 for i in range(n):
-    list1.append(randint(-50, 50))
+    list1.append(randint(-10, 10))
 print(list1)
 for i in range((len(list1) + 1) // 2):
-    c = list1[i] * list1[0-1-i]
+    c = list1[i] * list1[-1-i]
     list2.append(c)
 print(list2)
