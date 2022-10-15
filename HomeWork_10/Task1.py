@@ -20,9 +20,6 @@ for element in tree:
     dat = datetime.strptime(element.attrib['Date'], '%d.%m.%Y')
     arr2.append(dat)
 
-
-print(arr2)
-
 y = np.array(arr)
 x = np.array(arr2)
 
